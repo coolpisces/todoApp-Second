@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background: #CB6363;
+    color: white;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.todos li {
+    background-color: #D87E7E;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
